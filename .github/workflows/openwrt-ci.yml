@@ -10,6 +10,9 @@
 name: OpenWrt-CI
 
 on:
+  push:
+    branches: 
+      - syz
   schedule:
     - cron: 0 20 * * *
 
